@@ -1,0 +1,91 @@
+/* .PrenezLaRoute-Container{
+    display: flex;
+    flex-direction: row;
+    font-size: x-large;
+    text-align: justify;
+    margin: 1vh;
+    width: 90%;
+}
+
+.PartieGauchePrenezLaRoute{
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+}
+
+.PartieDroitePrenezLaRoute{
+    display: flex;
+     flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 1vh;
+}
+
+.Text-PrenezLaRoute{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-overflow: clip;
+    width: 60vh;
+    margin: 10px;
+}
+
+.Text-image-PrenezLaRoute{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 110vh;
+    
+}
+
+
+.Photo{
+    width: 30vh;
+}
+ */
+
+.Photo{
+    width: 35vh;
+}
+
+.PrenezLaRoute-Container{
+    display: flex;
+    width: 80%;
+    margin: 10vh auto;
+}
+
+.PartieGauchePrenezLaRoute{
+    margin-right: 10px;
+    width: 50%;
+    display: flex;
+    
+    flex-direction: column;
+    align-items: center;
+}
+
+.PartieGauchePrenezLaRoute img{
+    width: 70vh;
+    margin-top: 10px;
+    flex: 1;
+}
+
+.PartieDroitePrenezLaRoute{
+    margin-left: 10px;
+
+}
+
+.Text-image-PrenezLaRoute{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0px 0px 10px;
+    width: 100vh;
+    justify-content: flex-start;
+}
+
+.Text-PrenezLaRoute{
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}

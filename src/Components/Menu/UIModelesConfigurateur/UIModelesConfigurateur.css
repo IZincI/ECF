@@ -1,0 +1,46 @@
+.BodyModelesConfigurateur{
+    display: flex;
+    transition: 1s ease-in;
+}
+
+.BarreMenu{
+    background-color: grey;
+
+}
+
+.UI{
+    margin-top: 50px;
+}
+
+
+
+.ModeleConfig-Container{
+    display: flex;
+    flex-direction: column;
+    width: 100%; 
+}
+
+#TitreModelesConfig{
+    /* margin:10vh 16vh;    */
+    margin: 10vh 16vh 3vh ;
+}
+
+.ModeleConfigH1Out-Container{
+    display: flex;
+    justify-content: flex-start;
+    
+}
+
+.PartieGauche{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 0px auto;
+}
+
+.PartieDroite{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: auto;
+}

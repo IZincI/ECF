@@ -1,0 +1,49 @@
+#Decouverte{
+  background-color: rgba(245, 222, 179, 0);
+  font-size: 25px;
+  color: rgb(0, 106, 255);
+  cursor: pointer;
+  width: 60vh;
+  border-radius: 10vh;
+  border: 1vh solid rgba(0, 0, 0, 0);
+  margin: 20h auto;
+  padding: 1vh;
+}
+
+#Decouverte:hover{
+  display: flex;
+  transition: 0.4s ease-in;
+  background-color: rgba(255, 255, 255, 0.658);
+  border: 1px solid rgba(0, 0, 0, 0);
+  border-radius: 10vh;
+  cursor: pointer;
+  color: rgb(0, 106, 255);
+  /* text-shadow: 0px 0px 10px rgb(0, 0, 0); */
+}
+
+
+
+select{
+  border: 0px;
+}
+
+.Video-Text-Container{
+  position: absolute;
+  top: 10vh;
+  display: flex;
+  flex-direction: column;
+  margin: 10vh;
+  padding: auto;
+  color: rgb(255, 255, 255);
+}
+
+.Video-Golf7{
+  height: 100vh;
+}
+
+.disponibilite{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  
+}

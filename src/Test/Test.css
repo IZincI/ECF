@@ -1,0 +1,29 @@
+
+/*   
+  h1 {
+    position: relative;
+    
+    overflow: hidden;
+    background: linear-gradient(currentcolor, currentcolor) no-repeat top center, linear-gradient(currentcolor, currentcolor) no-repeat bottom center;
+    background-size: calc(104.5% - 1.65em) 0px;
+    text-align: center;
+  }
+  
+  h1:before,
+  h1:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    border: solid 1px;
+    border-top: none;
+    border-bottom: none;
+    
+    transform: skew(45deg)
+  }
+  
+  h1:after {
+    transform: skew(-45deg);
+  } */

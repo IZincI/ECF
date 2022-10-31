@@ -1,0 +1,32 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# eslint cache
+.eslintcachen o d e _ m o d u l e s / . c a c h e / d e f a u l t - d e v e l o p m e n t / 6 . p a c k  
+ n o d e _ m o d u l e s / . c a c h e / d e f a u l t - d e v e l o p m e n t / 1 0 . p a c k  
+# ignore ALL .log files
+*.log
+
+# ignore ALL files in ANY directory named temp
+temp/

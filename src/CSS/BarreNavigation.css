@@ -1,0 +1,56 @@
+.Menu{
+    background: linear-gradient(180deg, rgba(0, 83, 185, 0.674) 0%, rgba(226, 226, 226, 0) 95%);
+    margin: 0px;
+    padding: 1px 150px 0px 1px;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    
+    width: 100%;
+    justify-content: space-between;
+    top: 0px;
+    transition:   ease-in-out 1.4s;
+}
+
+.Menu:hover {
+    background-color: rgba(1, 64, 141, 0.405);
+    transition:   ease-in-out 1s;
+}
+
+#test{
+    background-color: rgba(255, 0, 0, 0) ;
+    border: 0px;
+    transition: 0.5s;
+}
+
+.CoteDroit img:hover .Menu-image:hover, #test:hover{
+    filter: invert(1); 
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.CoteGauche{
+    display: flex;
+    flex-direction: row;
+    color: black;
+    list-style-type: none;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+    width: 95px;
+    margin-left: 10px;
+}
+
+.CoteDroit{
+    display: flex;
+    justify-content:flex-end;
+    justify-content: space-between;
+    align-items: center;
+    width: 85px;
+    margin-right: 20px;
+}
+.Menu-image{
+    height: 4vh;
+}
+
+

@@ -1,0 +1,63 @@
+
+
+.Container{
+    display: flex;
+    width: 45em;
+    height: 45em;
+    margin: auto;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.VWRentBloc{
+    display: flex;
+    margin: 1em;
+}
+
+.TexteImage{
+    font-weight: bold;
+    font-size: larger;
+    padding: 10px;
+    position: relative;
+    z-index: 100;
+    color: rgb(0,30,80);
+    top: 250px;
+    left: 0%;
+    margin: 0px auto;
+    width: fit-content;
+    background-color: rgb(255, 255, 255);
+    
+}
+
+.Texte{
+    margin: 0;
+    word-spacing: 5px;
+    font-size: large;
+    font-weight: 450;
+}
+
+#VoitureURL{
+    z-index: 1;
+    max-height: 25em;
+}
+
+#MonVehicule{
+    margin: 0;
+    color: rgb(0,30,80);
+    font-weight: bold;
+    text-decoration: underline;
+    
+}
+
+.TitreTexte{
+    font-size: x-large;
+    font-weight: bolder;
+    margin: 0px;
+}
+
+.VWRentCard-Container{
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10em auto ;
+}

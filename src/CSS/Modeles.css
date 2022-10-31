@@ -1,0 +1,26 @@
+.Body{
+    margin-top: 15vh;
+}
+
+#TitreModele{
+    text-align: center;
+    background-color: rgb(0,42,93);
+    color: white;
+    display: block;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.Modeles-Container{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5vh;
+}
+
+.CardModele{
+    margin: auto;
+}
+

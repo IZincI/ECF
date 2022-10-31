@@ -1,0 +1,56 @@
+.BodyEntretenirVolkswagen{
+    height: 200vh;
+}
+
+#TitreMyVolkswagen{
+    
+    margin: 25vh 15vh 10vh;
+    font-size: xx-large;
+}
+
+.Container-boxes{
+    
+    margin: auto;
+    width: 50vh;
+    height: 75vh;
+    background: center url(../../../images/Config.jpg);
+}
+
+#liste-Card-Entretien{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 30vh;
+    
+    color: whitesmoke;
+    margin: 5vh;
+    
+}
+
+#Titre-Entretien{
+    font-size: xx-large;
+}
+
+#Config-Entretien{
+    font-size: small;
+    margin: auto 0vh;
+}
+
+#Lien-Entretien{
+    font-size: medium;
+    text-decoration: underline;
+    text-underline-offset: 2.5px;
+}
+
+#Plus{
+    position: relative;
+    left: 240px;
+    bottom: 25px;
+}
+
+#LigneHorizontaleEntretenir{
+    background: rgb(0,42,93);
+    width: 150vh;
+    height: 0.25vh;
+    margin: 10vh auto;
+}
